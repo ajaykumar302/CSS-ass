@@ -1,0 +1,150 @@
+::-webkit-scrollbar{
+    width: 10px;
+    margin: 0; 
+    padding: 0;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgb(1, 100, 1);
+}
+
+body{
+border-style: ridge;
+border: 10px ridge rgb(3, 253, 3);
+background-color: bisque;
+margin: 0; 
+padding: 0;  
+}
+.aj{
+display: flex;
+flex-direction: row;
+}
+#ak07{
+color: white;
+background-color: black;
+width: fit-content;
+margin: 30px 50px;
+padding: 30px 30px 30px 30px;
+border: 5px solid red;
+border-radius: 25px;
+font-size: x-large;
+position: static;
+
+
+}
+
+.menu{
+color: white;
+background-color: black;
+width: 25%;
+margin: 30px 50px;
+padding: 30px 30px 10px 30px;
+border: 5px solid red;
+border-radius: 30px;
+font-style: italic;
+text-align: center;
+font-size: x-large;
+position: absolute;
+top: 30px;
+left: 200px;
+
+}
+#ak06{
+color: white;
+background-color: black;
+width: fit-content;
+margin: 30px 50px;
+padding: 30px 30px 30px 30px;
+border: 5px solid red;
+border-radius: 25px;
+font-size: x-large;
+position: relative;
+left: 35%;
+
+}
+
+
+#ak04{
+display: flex;
+align-content: center;
+justify-content: center;
+align-items: center;
+
+}
+#kava01{
+
+background-color: white;
+width: fit-content;
+margin: 40px 60px;
+padding: 10px 0px 10px 0px;
+border: 5px dashed red;
+border-radius: 0px;
+text-align: center;
+position: static;
+font-size: larger;
+
+
+}
+.col{
+color: red;
+
+}
+#ak03{
+color: black;
+background-color: aqua;
+width: fit-content;
+margin: 30px 50px;
+padding: 50px 10px 50px 10px;
+border: 5px solid gray;
+border-radius: 100%;
+position: relative;
+font-size: larger;
+
+
+  
+}
+.ak01{
+text-decoration: underline;
+font-weight: bolder;
+text-align: center;
+}
+#ak01{
+display: flex;
+justify-content: center;
+
+}
+.men{
+color: white;
+background-color: black;
+width: 25%;
+margin: 30px 50px;
+padding: 30px 30px 10px 30px;
+border: 5px solid red;
+border-radius: 30px;
+text-align: center;
+font-style: italic; 
+ 
+}
+#ak02{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.list{
+color: blue;
+background-color: rgb(103, 252, 202);
+width: 20%;
+margin: 20px 40px;
+padding: 10px 0px 10px 0px;
+border: 2px solid green;
+border-radius: 30px;
+text-align: center;
+ 
+}
+.items{
+
+font-weight: bolder;
+}
+
