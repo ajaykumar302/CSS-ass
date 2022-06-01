@@ -1,0 +1,155 @@
+body{
+    background-color: gray;
+}
+#AK00{
+    display: flex;
+    justify-content: center;
+}
+.kava{
+color: palevioletred;
+background-color: white;
+width: 20%;
+margin: 30px 50px;
+padding: 30px 30px 10px 30px;
+border: 5px solid red;
+border-radius: 10px;
+text-align: center;
+box-shadow: 5px 5px purple;
+font-weight: bolder;
+text-shadow: 1px 1px 1px black;
+}
+#aj00{
+    border: 5px solid green;
+}
+.kava00{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.kava0{
+    color: blue;
+    background-color: white;
+    width: 10%;
+    margin: 30px 50px;
+padding: 30px 30px 10px 30px;
+border: 5px solid red;
+border-radius: 10px;
+text-align: center;
+box-shadow: 5px 5px purple;
+font-weight: bolder;
+font-size: x-large;
+text-shadow: 2px 2px 1px black;
+}
+.kava1{
+    color: brown;
+    width: 40%;
+    background-color: yellow;
+    margin: 30px 50px;
+    padding: 10px 20px 10px 20px;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px purple;
+    font-weight: bolder;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
+    position: fixed;
+
+}
+#AK01{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.kava01{
+    display: flex;
+    justify-content: center;
+}
+.kava2{
+    width: 10%;
+    margin: 30px 50px;
+    background-color: white;
+    padding: 30px 30px 10px 30px;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px purple;
+
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+#AK02{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.kava3{
+    color: blue;
+    background-color: white;
+    width:fit-content;
+    margin: 30px 50px;
+    padding: 10px 10px 10px 10px;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px purple;
+    font-weight: bolder;
+    text-shadow: 2px 2px 1px black; 
+    
+}
+.kava5{
+    border: 5px solid purple ;
+    background-color: rgb(2, 58, 2);
+    margin: 30px 50px;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+    align-content: center;
+
+
+
+}
+.kava6{
+    text-align: center;
+    font-weight: bolder;
+    font-size:x-large;
+}
+.kava4{
+    background-color: beige;
+    text-align: center;
+    width: fit-content;
+    margin: 10px 20px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.kava7{
+    background-color: beige;
+    text-align: center;
+    width: fit-content;
+    margin: 10px 20px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.kava8{
+    background-color: beige;
+    text-align: center;
+    width: fit-content;
+    margin: 10px 20px;
+    padding: 10px 40px 10px 40px;
+
+}
+.kava9{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h3{
+    font-style: italic;
+}
+.kava10{
+    display: flex;
+    justify-content: center;
+}
