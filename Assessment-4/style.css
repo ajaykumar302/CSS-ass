@@ -1,0 +1,133 @@
+.grad{
+    background-image: linear-gradient(90deg, red, green,yellow);
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: x-large;
+}
+.con0{
+   display: flex;
+   justify-content: center;
+}
+.con1{
+    border: 2px solid red;
+    background-color: skyblue;
+    text-align: center;
+    width: 40%;
+    padding: 0px 0px 0px 0px;
+    margin: 30px 50px;
+    border-radius: 10px;
+}
+.con2{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.con3{
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: aqua;
+    width: fit-content;
+    margin: 10px;
+   
+}
+.con4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.con5{
+    display: flex;
+    justify-content: center;
+}
+.con6{
+    background-image: linear-gradient(90deg, red,yellow,red);
+    text-align: center;
+    text-decoration:  red underline;
+    font-weight: bolder;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.con7{
+    border: 2px solid green;
+    background-image: radial-gradient(blue,green);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+
+}
+.con8{
+    color: red;
+   border: 2px solid red;
+   border-radius: 10px;
+   background-color: yellow;
+   text-decoration: underline;
+   margin: 30px 50px;
+   width: 15%;
+   text-align: center;
+
+}
+.main{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header header header header"
+    "main main right right left left menu menu"
+    " body body body body body body menu menu"
+    "footer footer footer footer footer footer footer footer";  
+}
+.div1{
+    color: white;
+    grid-area: header;
+    background-color: red ;
+    text-align: center;
+    font-weight: 10px;
+    padding: 10px;
+    border: 10px solid white;
+}
+.div2{
+    color: white;
+    grid-area: main;
+    background-color: rgb(80, 252, 80);
+    font-size: larger;
+    text-align: center;
+    border: 10px solid white;
+}
+.div3{
+    color: white;
+    grid-area: right;
+    background-color: rgb(87, 204, 250);
+    font-size: x-large;
+    border: 10px solid white;
+}
+.div4{
+    color: white;
+    grid-area: left;
+    background-color: rgb(77, 77, 252);
+    border: 10px solid white;
+}
+.div5{
+    color: white;
+    grid-area: body;
+    background-color: orange;
+    font-size: large;
+    padding-bottom: 50px;
+    border: 10px solid white;
+}
+.div6{
+    color: white;
+    grid-area: menu;
+    background-color: black;
+    text-decoration: underline;
+    border: 10px solid white;
+}
+.div7{
+    color: black;
+    grid-area: footer;
+    background-color: skyblue;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    border: 10px solid white;
+}
