@@ -1,0 +1,96 @@
+body{
+    background-color: yellow;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    background-color: rgb(13, 194, 13);
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+.box1:hover {
+    width: 300px;
+  }
+.box2{
+    background-color: rgb(5, 95, 5);
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    transition-property: width height;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+.box2:hover {
+    width: 300px;
+    height: 200px;
+  }
+.box3{
+    background-color: rgb(13, 194, 13);
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+.box3:hover {
+    width: 300px;
+  }
+.box4{
+    background-color: rgb(13, 194, 13);
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    transition: width 2s;
+    transition-timing-function: ease;
+}
+.box4:hover {
+    width: 300px;
+  }
+.box5{
+    background-color: rgb(13, 194, 13);
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+.box5:hover {
+    width: 300px;
+  }
+.box6{
+    background-color: rgb(13, 194, 13);
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    transition: width 2s;
+    transition-timing-function: ease-out;
+}
+.box6:hover {
+    width: 300px;
+  }
+.box7{
+    background-color: rgb(13, 194, 13);
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+.box7:hover {
+    width: 300px;
+  }
+.nav{
+    font-size: xx-large;
+    margin-left: 15px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
